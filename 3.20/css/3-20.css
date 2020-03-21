@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.index{
+    width: 600px;
+    height: 375px;
+    margin: 0 auto;
+}
+.header{
+    width: 600px;
+    height: 78px;
+    line-height: 78px;
+    background-image: url('../images/bgImg.jpg');
+    background-repeat: repeat-x;
+    border-top: #72ade4 1px solid;
+    margin-top: 40px;
+}
+.btn{
+    width: 94px;
+    height: 32px;
+    float: left;
+    margin-left: 22px;
+    position: relative;
+     
+}
+button{
+    width: 94px;
+    height: 32px;
+    background-color: #4879a6;
+    font-size: 13px;
+    font-weight: bold;
+    border: #375e81 1px solid;
+    border-radius: 3px;
+    color: white;
+}
+.position-box{
+    position: relative;
+}
+.drop-down-box{
+    position: absolute;
+    left: 0;
+    top: 56px;
+    
+}
+.position-box{
+    margin-left: 122px;
+}
+.box1{
+    width: 92px;
+    height: 12px;
+    background-color: #4879a6;
+    border-left:  #375e81 1px solid;
+    border-right:  #375e81 1px solid;
+}
+.box2{
+    width: 225px;
+    height: 76px;
+    background-color: #4879a6;
+    border-left:  #375e81 1px solid;
+    border-bottom:  #375e81 1px solid;
+    border-right:  #375e81 1px solid;
+    line-height: 30px;
+}
+.drop-list{
+    margin-left: 5px;
+    height: 20px;
+    color: white;
+}
+.nav{
+    height: 40px;
+    background-color: #67737c;
+    line-height: 40px;
+}
+p{
+    display: inline;
+    font-size: 12px;
+}
+.nav-item{
+    float: left;
+    margin-left: 19px;
+    color: #bcc8d0;
+}
+.icon{
+    margin: 10px 7px 10px 0;
+}
+.icon-1{
+    margin-left: 60px;
+}
+.main{
+    width: 600px;
+    height: 52px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url('../images/bgImg1.jpg');
+    background-repeat: repeat-x;
+    border-top: #6aa7e2 1px solid;
+}
+.home{
+    float: left;
+    margin: 14px 10px 16px 18px;
+}
+.arrow{
+    float: left;
+    color: white;
+    width: 100px;
+    
+}
+.arrow-icon{
+    margin-right: 20px;
+}
+.footer{
+    height: 30px;
+    background-color: #79bdec;
+    border-top: #4879a6 1px solid;
+    border-bottom: #4879a6 1px solid;
+    text-align: center;
+}
+.footer-pic{
+    margin-top: 5px;
+}
