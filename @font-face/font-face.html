@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 当使用电脑上已下载的字体名称作为新引入字体的名称时，虽名称相同，但是在调用时会调用新引用字体，而不会调用同名已存在的字体，猜测是一个全局变量与局部变量优先级的关系作用使然，暂未在浏览器词条中寻得解答 */
+        @font-face {
+            font-family: Arial;
+            src: url('Nanum_Myeongjo/NanumMyeongjo-Regular.ttf');
+        }
+        h2{
+            font-family: Arial;
+        }
+    </style>
+</head>
+<body>
+    <h2>this is a font-face test</h2>
+</body>
+</html>
